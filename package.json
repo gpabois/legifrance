@@ -1,0 +1,36 @@
+{
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.23.2",
+    "@jest/globals": "^29.7.0",
+    "jest": "^29.7.0",
+    "openapi-typescript": "^6.7.0",
+    "ts-jest": "^29.1.1"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "client-oauth2": "^4.3.3"
+  },
+  "name": "legifrance",
+  "version": "1.0.0",
+  "description": "Client de l'API légifrance",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpabois/legifrance.git"
+  },
+  "keywords": [
+    "legifrance",
+    "api",
+    "typescript",
+    "axios"
+  ],
+  "author": "Gaël PABOIS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gpabois/legifrance/issues"
+  },
+  "homepage": "https://github.com/gpabois/legifrance#readme"
+}
